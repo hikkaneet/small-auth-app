@@ -70,3 +70,8 @@ The application runs locally on the developer's machine using environment variab
 ## Summary
 
 The application is a simple FastAPI backend that provides user registration and authentication via OAuth2. The data is stored in a PostgreSQL database using Tortoise ORM. The backend is served using Uvicorn, and the frontend (React) interacts with the backend API to perform user operations. The stack is designed for local development and is suitable for building a user authentication system.
+
+## Install
+
+Installation of the required components: pip install fastapi passlib python-jose tortoise-orm uvicorn
+Tested on: fastapi 0.115.4, passlib 1.7.4, python-jose 3.3.0, tortoise-orm 0.21.7, uvicorn 0.32.0
